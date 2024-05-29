@@ -1,0 +1,49 @@
+body {
+    background-color: #111;
+    color: #FFF;    
+}
+
+.contenedor {
+    display: flex;    
+}
+
+.formulario {
+    margin: 0 auto;
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    width: 210px;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+}
+
+input {
+    width: 400px;
+}
+
+input[type="checkbox"]{
+    width: auto;   
+}
+
+select {
+    width: 400px;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    margin: 0 auto;    
+    background-color: #111;
+    color: #FFF;
+    border: 1px solid #DDD;
+    padding: 10px;
+}
